@@ -1,7 +1,7 @@
 import Jimp from "jimp";
 
 // convert jpg to png
-Jimp.read("image.jpg", function (err, image) {
+Jimp.read("catalina.jpg", function (err, image) {
     if (err) {
         console.log(err)
     } else {
@@ -10,7 +10,7 @@ Jimp.read("image.jpg", function (err, image) {
 })
 
 // convert png to jpg
-Jimp.read("image.png", function (err, image) {
+Jimp.read("mojave.png", function (err, image) {
     if (err) {
         console.log(err)
     } else {
