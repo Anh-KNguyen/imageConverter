@@ -5,7 +5,7 @@ Jimp.read("catalina.jpg", function (err, image) {
     if (err) {
         console.log(err)
     } else {
-        image.write("new-image.png")
+        image.write("catalina-newImage.png")
     }
 })
 
@@ -14,6 +14,6 @@ Jimp.read("mojave.png", function (err, image) {
     if (err) {
         console.log(err)
     } else {
-        image.write("new-image.jpg")
+        image.write("mojave-newImage.jpg")
     }
 })
